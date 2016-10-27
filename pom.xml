@@ -54,11 +54,11 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.7</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<modules>
-		<module>boot-dubbo-api</module>
-		<module>boot-dubbo-service</module>
+	<module>boot-dubbo-api</module>
+	<module>boot-dubbo-service</module>
     <module>boot-dubbo-web</module>
     <module>boot-dubbo-normal-client</module>
     <module>boot-dubbo-simple</module>

@@ -9,7 +9,7 @@
 	<name>boot-dubbo-normal-client</name>
 	<url>http://maven.apache.org</url>
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>releases</id>
 			<name>Nexus Release Repository</name>
@@ -45,11 +45,11 @@
 			<name>Maven Official Repository</name>
 			<url>http://repo1.maven.org/maven2</url>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<servlet.version>3.1.0</servlet.version>
 		<spring.version>3.2.9.RELEASE</spring.version>
 		<aspectj.version>1.7.2</aspectj.version>
