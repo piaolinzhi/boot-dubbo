@@ -25,8 +25,9 @@ public class SpringBootStarter extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(
 			SpringApplicationBuilder application) {
-		log.info("=============容器启动（Spring Boot Container Start...）=============");
+		log.info("=============容器启动（Spring Boot Container Start......）=============");
 		return application.sources(WebConfig.class);
+		
 	}
 
 	/**
