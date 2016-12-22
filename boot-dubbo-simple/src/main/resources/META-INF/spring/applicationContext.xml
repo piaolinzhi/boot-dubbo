@@ -5,7 +5,10 @@
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
 	<dubbo:annotation package="boot.dubbo" />
-	<!--<dubbo:service interface="boot.dubbo.api.UserService" ref="userService"  protocol="rest"/> 
-	<bean id="userService" class="boot.dubbo.service.UserServiceImpl" />-->
+<!-- 	<dubbo:service interface="boot.dubbo.api.UserService" ref="userService"  protocol="rest"/> 
+	<bean id="userService" class="boot.dubbo.simple.service.UserServiceImpl" /> -->
     <dubbo:protocol name="dubbo" />
+    <!-- below is fail -->
+    <!-- <dubbo:protocol name="rest" /> -->
+    <!--<dubbo:protocol name="rest" server="servlet" /> -->
 </beans>

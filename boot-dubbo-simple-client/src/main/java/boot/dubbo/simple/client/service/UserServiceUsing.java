@@ -11,11 +11,11 @@ import com.alibaba.dubbo.config.annotation.Reference;
 
 @Service
 public class UserServiceUsing {
-	@Reference
-	private UserService userService;
-	
-	public void test() {
-		List<User> users = userService.findAll();
-		System.out.println("===========" + users.size());
-	}
+    @Reference(group = "boot")
+    private UserService userService;
+
+    public void test() {
+        List<User> users = userService.findAll();
+        System.out.println("===========" + users.size());
+    }
 }
